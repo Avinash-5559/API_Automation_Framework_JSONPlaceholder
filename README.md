@@ -22,7 +22,7 @@ The framework utilises **Map-based payloads**, which keep the design lightweight
 ## 🚀 Features
 
 - Complete **CRUD** test automation for JSONPlaceholder ``/posts`` endpoint
-- **Map-based payload creation** (no POJO, no serialization libraries)
+- **Map-based payload creation**
 - Modular framework design with clear separation of concerns:
     - **Endpoints** for API URLs
     - **Modules** for payload building
