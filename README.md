@@ -48,7 +48,7 @@ The framework utilises **Map-based payloads**, which keep the design lightweight
 
 ## 🏗️ Project Structure
 
-```base
+```bash
 API_Automation_Framework_JSONPlaceholder/
 │
 ├── .idea/                                          # IntelliJ config
