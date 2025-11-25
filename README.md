@@ -51,49 +51,51 @@ The framework utilises **Map-based payloads**, which keep the design lightweight
 ```bash
 API_Automation_Framework_JSONPlaceholder/
 │
-├── .idea/                                          # IntelliJ config
-├── .mvn/                                           # Maven wrapper files
-├── allure-results/                                 # Allure results (auto-generated)
+├── .idea/                                                  # IntelliJ config
+├── .mvn/                                                   # Maven wrapper files
+├── allure-results/                                         # Allure results (auto-generated)
 ├── logs/
-│   └── test.log                                    # Sample execution log
+│   └── test.log                                            # Execution logs
 │
-├── pom.xml                                         # Dependencies & build config
+├── pom.xml                                                 # Project dependencies & build config
 ├── .gitignore
 │
-├── testng_*.xml                                    # TestNG suite files
+├── testng_*.xml                                            # TestNG suite files
 │
 ├── src/
-│   ├── main/java/com/avinashsinha/
-│   │   ├── endpoints/                              # API endpoints
-│   │   │   └── APIConstants.java
+│   ├── main/
+│   │   ├── java/com.avinashsinha/
+│   │   │   ├── endpoints/                                  # API endpoints
+│   │   │   │   └── APIConstants.java
+│   │   │   │
+│   │   │   └── modules/                                    # Payload Manager (Map-based)
+│   │   │       └── PayloadManager.java
 │   │   │
-│   │   └── modules/                                # Payload Manager (Map-based)
-│   │       └── PayloadManager.java
+│   │   └── resources/
+│   │       └── log4j2.xml                                  # Logging configuration
 │   │
-│   ├── main/resources/
-│   │   └── log4j2.xml                              # Logging config
-│   │
-│   └── test/java/com/avinashsinha/
-│       ├── asserts/                                # Assertion utilities
-│       │   └── AssertActions.java
-│       │
-│       ├── base/                                   # Base Test setup
-│       │   └── BaseTest.java
-│       │
-│       └── tests/
-│           ├── crud/                               # CRUD Test Cases
-│           │   ├── TestPostsCreate.java
-│           │   ├── TestPostsDelete.java
-│           │   ├── TestPostsDetails.java
-│           │   ├── TestPostsDetailsById.java
-│           │   ├── TestPostsFullUpdate.java
-│           │   └── TestPostsPartialUpdate.java
+│   └── test/
+│       └── java/com.avinashsinha/
+│           ├── asserts/                                    # Assertion utilities
+│           │   └── AssertActions.java
 │           │
-│           ├── integration/                        # Integration Tests
-│           │   └── TestE2EFlow.java
+│           ├── base/                                       # Base Test setup
+│           │   └── BaseTest.java
 │           │
-│           └── sample/                             # Sample Tests
-│               └── TestIntegrationSample.java
+│           └── tests/
+│               ├── crud/                                   # CRUD Test Cases
+│               │   ├── TestPostsCreate.java
+│               │   ├── TestPostsDelete.java
+│               │   ├── TestPostsDetails.java
+│               │   ├── TestPostsDetailsById.java
+│               │   ├── TestPostsFullUpdate.java
+│               │   └── TestPostsPartialUpdate.java
+│               │
+│               ├── integration/                            # Integration Tests
+│               │   └── TestE2EFlow.java
+│               │
+│               └── sample/                                 # Sample Tests
+│                   └── TestIntegrationSample.java
 │
 └── README.md
 
@@ -103,9 +105,11 @@ API_Automation_Framework_JSONPlaceholder/
 ## ▶️ Running Tests
 
 ### Integration Test (Create Posts, Details, Update and Delete Posts)
+
 ```bash
 mvn clean test -DsuiteXmlFile=testng_integration.xml
 ```
+
 #### Available TestNG XMLs
 
 - `testng_createPosts.xml`
@@ -120,6 +124,7 @@ mvn clean test -DsuiteXmlFile=testng_integration.xml
 
 ## 📊 Reporting
 ### Generate Allure Report
+
 ```bash
 allure serve allure-results
 ```
