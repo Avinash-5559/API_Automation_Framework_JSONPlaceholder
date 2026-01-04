@@ -19,6 +19,18 @@ The framework utilises **Map-based payloads**, which keep the design lightweight
 
 ---
 
+## ⚙️ Tech Stack
+
+- **Java 11+**
+- **IntelliJ IDEA** – IDE for development
+- **Maven** – Build & dependency management
+- **Rest-Assured** – HTTP client for API automation
+- **TestNG** – Testing framework
+- **AssertJ** – Advanced assertions
+- **Allure Reports** – Reporting framework
+
+---
+
 ## 🚀 Features
 
 - Complete **CRUD** test automation for JSONPlaceholder ``/posts`` endpoint
@@ -31,18 +43,6 @@ The framework utilises **Map-based payloads**, which keep the design lightweight
 - Integrated **Allure Reporting** for interactive test results
 - Logging support via **Log4j2**
 - Lightweight, dependency-minimal structure
-
----
-
-## ⚙️ Tech Stack
-
-- **Java 11+**
-- **IntelliJ IDEA** – IDE for development
-- **Maven** – Build & dependency management
-- **Rest-Assured** – HTTP client for API automation
-- **TestNG** – Testing framework
-- **AssertJ** – Advanced assertions
-- **Allure Reports** – Reporting framework
 
 ---
 
