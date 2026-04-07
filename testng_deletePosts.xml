@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/HP/Documents/API_Automation_Framework_JSONPlaceholder">
+    <test verbose="2" preserve-order="true" name="Delete Posts Test Suite">
         <classes>
             <class name="com.avinashsinha.tests.crud.TestPostsDelete">
             </class>
