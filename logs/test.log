@@ -203,3 +203,57 @@
 2026-04-28 21:23:48 INFO  TestE2EFlow - Complete the Partial Updation
 2026-04-28 21:23:48 INFO  TestE2EFlow - Delete the Post by Id
 2026-04-28 21:23:48 INFO  TestE2EFlow - Deletion is Done
+2026-05-04 18:09:18 INFO  TestE2EFlow - Start the Post Creation
+2026-05-04 18:09:21 INFO  TestE2EFlow - Complete the Post Creation
+2026-05-04 18:09:21 INFO  TestE2EFlow - Show the Details of All Posts
+2026-05-04 18:09:21 INFO  TestE2EFlow - End the Details of All Posts
+2026-05-04 18:09:21 INFO  TestE2EFlow - Show the Details of Single Post by Id
+2026-05-04 18:09:21 INFO  TestE2EFlow - End the Details of Single Post
+2026-05-04 18:09:21 INFO  TestE2EFlow - Full Update the Post by Id
+2026-05-04 18:09:22 INFO  TestE2EFlow - Complete the Full Updation
+2026-05-04 18:09:22 INFO  TestE2EFlow - Partial Update the Post by Id
+2026-05-04 18:09:22 INFO  TestE2EFlow - Complete the Partial Updation
+2026-05-04 18:09:22 INFO  TestE2EFlow - Delete the Post by Id
+2026-05-04 18:09:23 INFO  TestE2EFlow - Deletion is Done
+2026-05-04 18:09:51 INFO  TestE2EFlow - Start the Post Creation
+2026-05-04 18:09:53 INFO  TestE2EFlow - Complete the Post Creation
+2026-05-04 18:09:53 INFO  TestE2EFlow - Show the Details of All Posts
+2026-05-04 18:09:53 INFO  TestE2EFlow - End the Details of All Posts
+2026-05-04 18:09:53 INFO  TestE2EFlow - Show the Details of Single Post by Id
+2026-05-04 18:09:53 INFO  TestE2EFlow - End the Details of Single Post
+2026-05-04 18:09:53 INFO  TestE2EFlow - Full Update the Post by Id
+2026-05-04 18:09:53 INFO  TestE2EFlow - Complete the Full Updation
+2026-05-04 18:09:53 INFO  TestE2EFlow - Partial Update the Post by Id
+2026-05-04 18:09:54 INFO  TestE2EFlow - Complete the Partial Updation
+2026-05-04 18:09:54 INFO  TestE2EFlow - Delete the Post by Id
+2026-05-04 18:09:54 INFO  TestE2EFlow - Deletion is Done
+2026-05-04 18:10:58 INFO  TestPostsCreate - Build Payload and Send the API Request
+2026-05-04 18:11:00 INFO  TestPostsCreate - End the API Request and assertions
+2026-05-04 20:31:36 INFO  TestE2EFlow - Start the Post Creation
+2026-05-04 20:31:39 INFO  TestE2EFlow - Complete the Post Creation
+2026-05-04 20:31:39 INFO  TestE2EFlow - Show the Details of All Posts
+2026-05-04 20:31:39 INFO  TestE2EFlow - End the Details of All Posts
+2026-05-04 20:31:39 INFO  TestE2EFlow - Show the Details of Single Post by Id
+2026-05-04 20:31:39 INFO  TestE2EFlow - End the Details of Single Post
+2026-05-04 20:31:39 INFO  TestE2EFlow - Full Update the Post by Id
+2026-05-04 20:31:40 INFO  TestE2EFlow - Complete the Full Updation
+2026-05-04 20:31:40 INFO  TestE2EFlow - Partial Update the Post by Id
+2026-05-04 20:31:40 INFO  TestE2EFlow - Complete the Partial Updation
+2026-05-04 20:31:40 INFO  TestE2EFlow - Delete the Post by Id
+2026-05-04 20:31:41 INFO  TestE2EFlow - Deletion is Done
+2026-05-04 20:34:42 INFO  TestPostsDetails - Send the API Request
+2026-05-04 20:34:43 INFO  TestPostsDetails - End the API Request
+2026-05-04 20:37:51 INFO  TestPostsFullUpdate - Build Payload and Send the API Request
+2026-05-04 20:37:54 INFO  TestPostsFullUpdate - End the API Request and assertions
+2026-05-04 20:42:50 INFO  TestE2EFlow - Start the Post Creation
+2026-05-04 20:42:53 INFO  TestE2EFlow - Complete the Post Creation
+2026-05-04 20:42:53 INFO  TestE2EFlow - Show the Details of All Posts
+2026-05-04 20:42:53 INFO  TestE2EFlow - End the Details of All Posts
+2026-05-04 20:42:53 INFO  TestE2EFlow - Show the Details of Single Post by Id
+2026-05-04 20:42:53 INFO  TestE2EFlow - End the Details of Single Post
+2026-05-04 20:42:53 INFO  TestE2EFlow - Full Update the Post by Id
+2026-05-04 20:42:54 INFO  TestE2EFlow - Complete the Full Updation
+2026-05-04 20:42:54 INFO  TestE2EFlow - Partial Update the Post by Id
+2026-05-04 20:42:55 INFO  TestE2EFlow - Complete the Partial Updation
+2026-05-04 20:42:55 INFO  TestE2EFlow - Delete the Post by Id
+2026-05-04 20:42:55 INFO  TestE2EFlow - Deletion is Done
