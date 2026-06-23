@@ -13,14 +13,14 @@ import java.util.Map;
 
 public class TestPostsCreate extends BaseTest {
 
-    private static final Logger logger = LogManager.getLogger(TestPostsCreate.class);
+    private static final Logger LOGGER = LogManager.getLogger(TestPostsCreate.class);
 
     @Test(groups = "Regression", priority = 1)
     @Owner("Avinash Sinha")
     @Description("TC#1 : Step 1. Create the Post")
     public void testCreatePost_POST() {
 
-        logger.info("Build Payload and Send the API Request");
+        LOGGER.info("Build Payload and Send the API Request");
 
         // 1) build payload (can be dynamic or default)
         Map<String, Object> payload = payloadManager.createPostRequest();
@@ -57,7 +57,7 @@ public class TestPostsCreate extends BaseTest {
 
         System.out.println();
 
-        logger.info("End the API Request and assertions");
+        LOGGER.info("End the API Request and assertions");
 
     }
 
