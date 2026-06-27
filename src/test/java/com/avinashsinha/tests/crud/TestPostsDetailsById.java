@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class TestPostsDetailsById extends BaseTest {
 
-    private static final Logger logger = LogManager.getLogger(TestPostsDetailsById.class);
+    private static final Logger LOGGER = LogManager.getLogger(TestPostsDetailsById.class);
 
     @Test(groups = "Regression", priority = 1)
     @Owner("Avinash Sinha")
@@ -21,7 +21,7 @@ public class TestPostsDetailsById extends BaseTest {
 
         int id_e = 50;
 
-        logger.info("Send the API Request");
+        LOGGER.info("Send the API Request");
 
         // 1) send request
         response = RestAssured.given(requestSpecification)
@@ -51,7 +51,7 @@ public class TestPostsDetailsById extends BaseTest {
 
         System.out.println();
 
-        logger.info("End the API Request and assertions");
+        LOGGER.info("End the API Request and assertions");
 
     }
 }
