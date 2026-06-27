@@ -15,7 +15,7 @@ import java.util.Map;
 
 public class TestPostsFullUpdate extends BaseTest {
 
-    private static final Logger logger = LogManager.getLogger(TestPostsFullUpdate.class);
+    private static final Logger LOGGER = LogManager.getLogger(TestPostsFullUpdate.class);
 
     @Test(groups = "Regression", priority = 1)
     @Owner("Avinash Sinha")
@@ -24,7 +24,7 @@ public class TestPostsFullUpdate extends BaseTest {
 
         int id_e = 51;
 
-        logger.info("Build Payload and Send the API Request");
+        LOGGER.info("Build Payload and Send the API Request");
 
         // 1) build payload (can be dynamic or default)
         Map<String, Object> payload = payloadManager.fullUpdatePostRequest();
@@ -60,7 +60,7 @@ public class TestPostsFullUpdate extends BaseTest {
 
         System.out.println();
 
-        logger.info("End the API Request and assertions");
+        LOGGER.info("End the API Request and assertions");
 
     }
 }
